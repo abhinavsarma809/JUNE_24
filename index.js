@@ -5,7 +5,7 @@ env.config();
 const Port = process.env.Port||3000;
 
 app.listen(Port,()=>{
-    console.log(`server is running in${port}`);
+    console.log(`server is running in${Port}`);
 
 });
 
