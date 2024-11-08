@@ -9,6 +9,6 @@ app.listen(port,()=>{
 
 });
 
-app.get("/bot",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("hi hello world");
 })
