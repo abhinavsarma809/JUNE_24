@@ -10,5 +10,5 @@ app.listen(port,()=>{
 });
 
 app.get("/bot",(req,res)=>{
-    res.send("hi");
+    res.send("hi hello world");
 })
